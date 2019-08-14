@@ -32,7 +32,7 @@
 <config>
     <modules>
         <Youama_Ajaxlogin>
-            <version>1.0.2</version> 
+            <version>1.1.0</version> 
         </Youama_Ajaxlogin>
     </modules>
     <global>
@@ -71,6 +71,15 @@
                 </youama_ajaxlogin>
             </updates>
         </layout>
+        <translate>
+            <modules>
+                <youama_ajaxlogin>
+                    <files>
+                        <default>Youama_Ajaxlogin.csv</default>
+                    </files>
+                </youama_ajaxlogin>
+            </modules>
+        </translate>
     </frontend>
     
     <default>
