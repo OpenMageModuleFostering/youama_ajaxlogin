@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Youama_Ajaxlogin",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)-",
+    "homepage": "",
+    "description": "This module implement the Magento Login/Register process.",
+    "authors": [
+    {
+        "name": "David Belicza",
+        "email": "87.bdavid@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
