@@ -3,8 +3,7 @@
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
-    "description": "This module implement the Magento Login/Register process.
-",
+    "description": "It is a free responsive ajax login and register module, compatible with Madison Island of Magento.",
     "authors": [
     {
         "name": "David Belicza",
