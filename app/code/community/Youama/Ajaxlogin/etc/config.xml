@@ -32,7 +32,7 @@
 <config>
     <modules>
         <Youama_Ajaxlogin>
-            <version>1.0</version> 
+            <version>1.0.2</version> 
         </Youama_Ajaxlogin>
     </modules>
     <global>

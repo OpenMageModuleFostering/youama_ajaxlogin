@@ -84,6 +84,9 @@ class Youama_Ajaxlogin_Model_Ajaxregister extends Youama_Ajaxlogin_Model_Validat
             $customer->setConfirmation(null);
             $customer->save();
             
+            $storeId = $customer->getSendemailStoreId();
+            $customer->sendNewAccountEmail('registered', '', $storeId);
+            
             Mage::getSingleton('customer/session')->loginById($customer->getId());
             
             $this->_userId = $customer->getId();
