@@ -1,35 +1,34 @@
 /**
- * YouAMA.com
+ * YOUAMA SOFTWARE
  *
  * NOTICE OF LICENSE
  *
- * This source file is subject to the EULA that is bundled with this package
- * on http://youama.com/freemodule-license.txt.
+ * This source file is subject to the OSL 3.0 license.
  *
  *******************************************************************************
- *                          MAGENTO EDITION USAGE NOTICE
+ * MAGENTO EDITION USAGE NOTICE
+ *
+ * This package designed for Magento Community Edition. Developer(s) of
+ * YOUAMA.COM does not guarantee correct work of this extension on any other
+ * Magento Edition except clear installed Magento Community Edition. YouAMA.com
+ * does not provide extension support in case of incorrect usage.
  *******************************************************************************
- * This package designed for Magento Community edition. Developer(s) of
- * YouAMA.com does not guarantee correct work of this extension on any other
- * Magento edition except Magento Community edition. YouAMA.com does not
- * provide extension support in case of incorrect edition usage.
- *******************************************************************************
- *                                  DISCLAIMER
- *******************************************************************************
+ * DISCLAIMER
+ *
  * Do not edit or add to this file if you wish to upgrade Magento to newer
  * versions in the future.
  *******************************************************************************
  * @category   Youama
  * @package    Youama_Ajaxlogin
- * @copyright  Copyright (c) 2012-2014 YouAMA.com (http://www.youama.com)
- * @license    http://youama.com/freemodule-license.txt
+ * @copyright  Copyright (c) 2012-2016 David Belicza (http://www.youama.com)
+ * @license    https://opensource.org/licenses/osl-3.0.php
  */
 
 /**
  * This plugin build on jQuery 1.9+ to use login and Register APIs of Magento CE
  * 1.9+ via ajax on default RWD template package Madison Island.
  * jQuery(TM) youamaAjaxlogin plugin
- * @author doveid
+ * @author David Belicza
  */
 (function($) {
     $.fn.youamaAjaxLogin = function(options) {
@@ -312,7 +311,7 @@
          * @returns {boolean}
          */
         function validateEmail(emailAddress) {
-            var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            var filter = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
             if (filter.test(emailAddress)) {
                 return true;
