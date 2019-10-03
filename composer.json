@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Youama_Ajaxlogin",
+    "name": "OpenMageModuleFostering\/Youama_Ajaxlogin",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": "It is a free responsive ajax login and register module, compatible with Madison Island of Magento.",
     "authors": [
-    {
-        "name": "David Belicza",
-        "email": "87.bdavid@gmail.com"
-    }
-],
+        {
+            "name": "David Belicza",
+            "email": "87.bdavid@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
